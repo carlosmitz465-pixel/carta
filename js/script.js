@@ -1,3 +1,7 @@
+/* detectar si es móvil */
+const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
+if (!isMobile) {
 /* corazones */
 
 setInterval(()=>{
@@ -49,8 +53,7 @@ document.body.appendChild(c)
 setTimeout(()=>c.remove(),15000)
 
 },9000)
-
-
+}
 
 /* solo una canción a la vez */
 
