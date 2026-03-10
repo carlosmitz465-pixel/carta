@@ -1,0 +1,107 @@
+body{
+margin:0;
+font-family:'Segoe UI',sans-serif;
+background:linear-gradient(135deg,#6a11cb,#b86adf);
+color:white;
+text-align:center;
+overflow-x:hidden;
+}
+
+h1{
+margin-top:40px;
+font-size:48px;
+animation:latido 2s infinite;
+}
+
+@keyframes latido{
+0%{transform:scale(1);}
+50%{transform:scale(1.08);}
+100%{transform:scale(1);}
+}
+
+.galeria{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+gap:40px;
+padding:60px;
+}
+
+.card{
+background:rgba(255,255,255,0.15);
+border-radius:20px;
+padding:20px;
+backdrop-filter:blur(10px);
+box-shadow:0 0 20px rgba(0,0,0,0.3);
+transition:.4s;
+}
+
+.card:hover{
+transform:scale(1.04);
+box-shadow:0 0 35px rgba(255,255,255,0.5);
+}
+
+.marco{
+background:white;
+padding:10px;
+border-radius:15px;
+box-shadow:0 10px 25px rgba(0,0,0,0.4);
+}
+
+.marco img{
+width:100%;
+border-radius:10px;
+}
+
+.doble{
+display:flex;
+gap:10px;
+}
+
+.doble img{
+width:50%;
+}
+
+.poema{
+margin-top:15px;
+font-size:18px;
+line-height:1.6;
+}
+
+audio{
+margin-top:15px;
+width:100%;
+}
+
+.corazon{
+position:fixed;
+color:#ff66ff;
+font-size:22px;
+animation:flotar 6s linear infinite;
+}
+
+@keyframes flotar{
+0%{transform:translateY(0);}
+100%{transform:translateY(-100vh);}
+}
+
+.pato{
+position:fixed;
+font-size:28px;
+animation:pato 12s linear infinite;
+}
+
+@keyframes pato{
+0%{transform:translateX(-50px);}
+100%{transform:translateX(110vw);}
+}
+
+.cerdito{
+position:fixed;
+font-size:28px;
+animation:cerdito 15s linear infinite;
+}
+
+@keyframes cerdito{
+0%{transform:translateX(110vw);}
+100%{transform:translateX(-50px);}
+}
