@@ -137,7 +137,7 @@ height:32px;
 /* Móviles grandes (480px - 767px) */
 @media (max-width:480px){
 h1{
-font-size:28px;
+font-size:32px;
 margin-top:20px;
 }
 
@@ -148,19 +148,19 @@ padding:20px 15px;
 }
 
 .card{
-padding:12px;
+padding:15px;
 border-radius:15px;
 }
 
 .marco{
-padding:8px;
+padding:10px;
 border-radius:12px;
 }
 
 .poema{
-font-size:14px;
-line-height:1.5;
-margin-top:12px;
+font-size:18px;
+line-height:1.6;
+margin-top:15px;
 }
 
 .doble{
@@ -172,27 +172,28 @@ width:50%;
 }
 
 audio{
-margin-top:12px;
-height:30px;
+margin-top:15px;
+height:40px;
+width:100%;
 }
 
 .corazon{
-font-size:18px;
+display:none;
 }
 
 .pato{
-font-size:20px;
+display:none;
 }
 
 .cerdito{
-font-size:20px;
+display:none;
 }
 }
 
 /* Móviles pequeños (menos de 320px) */
 @media (max-width:320px){
 h1{
-font-size:22px;
+font-size:26px;
 margin-top:15px;
 }
 
@@ -202,6 +203,22 @@ gap:15px;
 }
 
 .poema{
-font-size:12px;
+font-size:16px;
+}
+
+audio{
+height:38px;
+}
+
+.corazon{
+display:none;
+}
+
+.pato{
+display:none;
+}
+
+.cerdito{
+display:none;
 }
 }
