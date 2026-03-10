@@ -105,3 +105,103 @@ animation:cerdito 15s linear infinite;
 0%{transform:translateX(110vw);}
 100%{transform:translateX(-50px);}
 }
+
+/* Media Queries - Responsive */
+
+/* Tablets (768px y más) */
+@media (max-width:768px){
+h1{
+font-size:36px;
+margin-top:30px;
+}
+
+.galeria{
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:30px;
+padding:40px 20px;
+}
+
+.card{
+padding:15px;
+}
+
+.poema{
+font-size:16px;
+}
+
+audio{
+height:32px;
+}
+}
+
+/* Móviles grandes (480px - 767px) */
+@media (max-width:480px){
+h1{
+font-size:28px;
+margin-top:20px;
+}
+
+.galeria{
+grid-template-columns:1fr;
+gap:20px;
+padding:20px 15px;
+}
+
+.card{
+padding:12px;
+border-radius:15px;
+}
+
+.marco{
+padding:8px;
+border-radius:12px;
+}
+
+.poema{
+font-size:14px;
+line-height:1.5;
+margin-top:12px;
+}
+
+.doble{
+gap:8px;
+}
+
+.doble img{
+width:50%;
+}
+
+audio{
+margin-top:12px;
+height:30px;
+}
+
+.corazon{
+font-size:18px;
+}
+
+.pato{
+font-size:20px;
+}
+
+.cerdito{
+font-size:20px;
+}
+}
+
+/* Móviles pequeños (menos de 320px) */
+@media (max-width:320px){
+h1{
+font-size:22px;
+margin-top:15px;
+}
+
+.galeria{
+padding:15px 10px;
+gap:15px;
+}
+
+.poema{
+font-size:12px;
+}
+}
