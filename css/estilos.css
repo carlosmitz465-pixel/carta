@@ -10,13 +10,6 @@ overflow-x:hidden;
 h1{
 margin-top:40px;
 font-size:48px;
-animation:latido 2s infinite;
-}
-
-@keyframes latido{
-0%{transform:scale(1);}
-50%{transform:scale(1.08);}
-100%{transform:scale(1);}
 }
 
 .galeria{
