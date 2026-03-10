@@ -5,6 +5,7 @@ background:linear-gradient(135deg,#6a11cb,#b86adf);
 color:white;
 text-align:center;
 overflow-x:hidden;
+overflow-y:auto;
 }
 
 h1{
@@ -64,6 +65,8 @@ position:fixed;
 color:#ff66ff;
 font-size:22px;
 animation:flotar 6s linear infinite;
+will-change:transform;
+pointer-events:none;
 }
 
 @keyframes flotar{
@@ -75,6 +78,8 @@ animation:flotar 6s linear infinite;
 position:fixed;
 font-size:28px;
 animation:pato 12s linear infinite;
+will-change:transform;
+pointer-events:none;
 }
 
 @keyframes pato{
@@ -86,6 +91,8 @@ animation:pato 12s linear infinite;
 position:fixed;
 font-size:28px;
 animation:cerdito 15s linear infinite;
+will-change:transform;
+pointer-events:none;
 }
 
 @keyframes cerdito{
