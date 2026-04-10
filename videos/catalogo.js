@@ -1,0 +1,1 @@
+window.CARTA_VIDEOS = [];
